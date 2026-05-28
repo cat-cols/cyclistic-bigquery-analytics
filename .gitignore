@@ -1,3 +1,23 @@
+__pycache__/
+.ipynb_checkpoints/
+
+*.csv
+data/raw/
+data/processed/
+.DS_Store
+
+# ---
+
+# Virtual environments
+.venv
+env/
+venv/
+
+# Local development
+.local/
+notes/
+images
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +236,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Raw / large data
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.xlsx
+*.zip
+
+# Tableau temp/recovery files
+*.twbr
+tableau-data/work-books/.~*
+
+# Tableau packaged workbooks can be huge
+*.twbx
+
+# Secrets / credentials
+*.json
+*key*.json
+*credentials*.json
+src/cyclistic_key.json
